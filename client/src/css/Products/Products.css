@@ -27,3 +27,44 @@
   color: #fff;
   padding: 7px;
 }
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+}
+.product-info img {
+  width: 40%;
+  margin-top: 20px;
+  height: 500px;
+}
+.product-info .detail {
+  width: 50%;
+  margin-top: 20px;
+}
+.product-info .detail p {
+  color: rgb(36, 38, 43);
+  font-size: 25px;
+  margin: 30px 0;
+}
+.product-info .detail p span {
+  font-weight: bold;
+}
+.product-info .detail button {
+  background-color: #2a5ea5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+span.close {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+span.close:hover {
+  color: #2a5ea5;
+}
