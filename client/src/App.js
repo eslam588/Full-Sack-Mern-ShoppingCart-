@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import data from './data.json';
 import Products from './components/Products/Products';
+import Filter from './components/Filter/Filter';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <main>
           <div className="wrapper">
             <Products products={products} />
-            <div className="filter-wrapper">filter</div>
+            <Filter/>
           </div>
         </main>
         <Footer/>
